@@ -4,6 +4,12 @@ loadkeys de
 mount -o remount,size=2G /run/archiso/cowspace
 pacman -Sy git reflector
 reflector -c DE -n 15 > /etc/pacman.d/mirrorlist
-git clone git://github.com/helmuthdu/aui
+
+if [ -d "/aui/" ]; then
+      echo "aui directory found"
+else
+      git clone git://github.com/helmuthdu/aui
+fi
+
 cd aui/
 ./fifo`
