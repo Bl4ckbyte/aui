@@ -36,7 +36,7 @@
   MAINMENU="1-13"
 #}}}
 #BASIC SETUP {{{
-  CUPS="y"
+  CUPS="n"
   CUSTOMREPO="n"         # Add custom repositories
   FIRMWARE="n"           # Install custom firmwares
   NFS="n"
@@ -64,7 +64,7 @@
     #11) libmtp [Android Devices]
     #12) libraw1394 [IEE1394 Driver]
     #13) wd719x-firmware
-    FIRMWARE_OPTIONS=""
+    FIRMWARE_OPTIONS="6"
   #}}}
 #}}}
 #DESKTOP ENVIRONMENT|WINDOW MANAGER {{{
@@ -82,14 +82,14 @@
   #12) i3
   #13) OpenBox
   #14) Xmonad
-  DESKTOPENV="4"
+  DESKTOPENV="7"
   #KDE {{{
     # 1) Choqok
     # 2) Digikam
     # 3) K3b
     # 4) Skrooge
     # 5) Yakuake
-    KDE_OPTIONS="1-5"
+    KDE_OPTIONS=""
   #}}}
   #ESSENTIAL APPS [Enlightenment,LXDE,Awesome,Fluxbox,OpenBox] {{{
     # 1) Display Manager
@@ -105,7 +105,7 @@
     #11) Xcompmgr
     #12) Zathura
     #13) speedtest-cli
-    MISCAPPS="1 3"
+    MISCAPPS="1 3 7 13"
   #}}}
   #DISPLAY MANAGER {{{
     # 1) Elsa
@@ -121,7 +121,7 @@
   #ICONS THEMES {{{
     # 1) Numix
     # 2) Papirus
-    ICONS_THEMES="2"
+    ICONS_THEMES="1 2"
   #}}}
   #GTK THEMES {{{
     # 1) Arc
@@ -148,7 +148,7 @@
   # 8) Synapse
   # 9) Terminator
   #10) Tilix
-  ACCESSORIES_OPTIONS="4 10"
+  ACCESSORIES_OPTIONS="2 3 5 6 4 10"
 #}}}
 #DEVELOPEMENT {{{
   # 1) Atom
@@ -175,7 +175,7 @@
   #22) Regexxer
   #23) Postman
   #24) Gitkraken
-  DEVELOPMENT_OPTIONS="17"
+  DEVELOPMENT_OPTIONS="1 7 16 20 17 "
 #}}}
 #OFFICE {{{
   # 1) Abiword+Gnumeric|Calligra
@@ -208,7 +208,7 @@
   #14) netdata
   #15) nload
   #16) vmware-workstation12
-  SYSTEMTOOLS_OPTIONS="11 13"
+  SYSTEMTOOLS_OPTIONS="1 6 8 9 10 12 11 13"
 #}}}
 #GRAPHICS {{{
   # 1) Blender
@@ -222,7 +222,7 @@
   # 9) Shotwell
   #10) Simple Scan
   #11) YACReader
-  GRAPHICS_OPTIONS="2-5 9"
+  GRAPHICS_OPTIONS="2"
 #}}}
 #INTERNET {{{
   # 1) Browser
@@ -240,7 +240,7 @@
     # 5) Opera
     # 6) Vivaldi
     # 7) Tor-browser
-    BROWSERS_OPTIONS="3"
+    BROWSERS_OPTIONS="1 3"
   #}}}
   #DOWNLOAD|FILESHARE {{{
     #  1) Deluge
@@ -257,7 +257,7 @@
     # 12) Transmission
     # 13) uGet
     # 14) Youtube-dl
-    DOWNLOAD_OPTIONS="12"
+    DOWNLOAD_OPTIONS="5 12"
   #}}}
   #EMAIL|RSS {{{
     # 1) Liferea
@@ -308,7 +308,7 @@
     # 9) Spotify
     #10) Timidity++
     #11) quodlibet
-    AUDIO_PLAYER_OPTIONS="8"
+    AUDIO_PLAYER_OPTIONS="9"
   #}}}
   #EDITORS|TOOLS {{{
     # 1) Audacity
@@ -333,7 +333,7 @@
     # 7) Popcorn Time
     # 8) VLC
     # 9) Kodi
-    VIDEO_PLAYER_OPTIONS="8"
+    VIDEO_PLAYER_OPTIONS="5 8 9"
   #}}}
   #EDITORS|TOOLS {{{
     # 1) Arista
@@ -353,15 +353,15 @@
   #2) PlayOnLinux
   #3) Steam
   #4) Minecraft
-  GAMES_OPTIONS=""
+  GAMES_OPTIONS="3"
 #}}}
 #WEBSERVER {{{
   # 1) LAMP - APACHE, MariaDB & PHP
   # 2) LAPP - APACHE, POSTGRESQL & PHP
   # 3) LEMP - NGINX, MariaDB & PHP
   # 4) LEPP - NGINX, POSTGRESQL & PHP
-  WEBSERVER="4"
-  POSTGIS="n"
+  WEBSERVER=""
+  POSTGIS=""
 #}}}
 #FONTS {{{
   # 1) ttf-dejavu
@@ -374,7 +374,7 @@
   # 8) ttf-ms-fonts
   # 9) wqy-microhei
   #10) noto-fonts-cjk
-  FONTS_OPTIONS="1-9"
+  FONTS_OPTIONS="6"
 #}}}
 #IME INPUT TOOLS  {{{
   # 1) fcitx
